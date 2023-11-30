@@ -63,5 +63,3 @@ grid.arrange(plot1, plot2, ncol=2)
 sink(file = "package-versions.txt")
 sessionInfo()
 sink()
-
-[Link to Other File](Commit changes.png)
