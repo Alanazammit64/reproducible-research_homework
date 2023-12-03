@@ -1,6 +1,5 @@
 ---
 title: "Logistic Growth"
-author: "Alana Zammit"
 date: "2023-11-28"
 output: html_document
 ---
