@@ -10,7 +10,10 @@ Questions 1, 2 and 3 can be found in the README.md file in the logistic_growth r
 
 # Question 4 - Brownian Motion 
 
-Firstly, I installed the necessary packages
+Brownian motion is the random movement of suspended particles, with fast moving molecules or atoms that hit the particles being the cause of this random motion. It is a continuous time stochastic process, as it gives a randomly determined outcome. 
+
+
+To complete this talk, I firstly had to install the necessary packages
 
 ```{r, echo = FALSE}
 
@@ -28,8 +31,6 @@ library(gridExtra)
 The script provided in the random_walk file produces the two plots below.
 
 ![Brownian motion plots](brownian_motion.png)
-
-Brownian motion is the random movement of suspended particles, with fast moving molecules or atoms that hit the particles being the cause of this random motion. It is a continuous time stochastic process, as it gives a randomly determined outcome. 
 
 In these plots, I can observe the path taken by the randomly generated walks through time, with earlier time points shown in darker colours. Both walks contain 500 steps, but we can see a difference between the two graphs: the one of the left tends to have longer walks, and so talks up more of the grid space, in comparison to the shorter walks which cover less of the right hand grid. This demonstrates the randomness of the movement of a particle in a 2D space across time. 
 
