@@ -11,17 +11,13 @@ Can be found in the README.Rmd file in the logistic_growth repository
 # Question 4 - Brownian Motion 
 
 Firstly, I installed the necessary packages
-
 ```{r, echo = FALSE}
-
 install.packages("ggplot2")
 install.packages("gridExtra")
 
 library(ggplot2)
 library(gridExtra)
-
 ```
-
 
 1) **Execute the code to produce the paths of two random walks. What do you observe?**
 
@@ -133,3 +129,24 @@ A study may be said to be reproducible when its data can be reanalysed using the
 Git is a widely used version control system, as it allows uses to track their changes to files and to collaborate with many other users, and GitHub is a hosting service for Git repositories. Both are important platforms to use for producing reproducible and replicable pieces of work. One of the key roles of git is version control: the ability to store different versions of one's work. Git tracks changes in files, and keeps a detailed record of all changes made. This makes the code transparent, as others can see how it was created, and reproducible, as other can then re-run the analyses. Furthermore, the ability to create forks in git allows researchers to experiment with different versions of a project without commiting any changes to the main project. This increases the replicability of the work, as it allows others to see all of the different variations of the project. 
   GitHub is a key platform for hosting the git repositories, where it acts as a central hub for all work. This allows various project files, including code, datasets, and different documentation to be stored in one place. GitHub also allows research to be shared and collaborated on, as by hosting others on a project, they are able to not only view the work as it is being completed, but even contribute. 
   
+  Whilst these platforms are very beneficial to improving the reproducability and replicabiltiy of code, they do have their limitations. For example, they have limitations on the accessibility of sensitive or proprietary information, meaning users may be required to purchase premium plans for increased privacy. They also have limitations in terms of storage capacities, and this could be restrictive when dealing with projects with particularly large files or datasets. Finally, the cloud-based interfaces, such as GitHub and Posit Cloud require internet access, and so are vulnerable to internet disruptions. Protocols.io is an online platform designed for documenting and sharing research protocols and experimental methodologies. It can be used in tandem with GitHub to improve the reproducibility of studies. For example, by integrating documented protocols from Protocols.io with GitHub repositories, so that the detailed experimental procedures can be found with the code and data, allowing others to replicate experiments more accurately. Furthermore, this will allow other collaborators to better understand the methodologies used in the project, thus increasing transparency. Therefore, by using Protocols.io in tandem with GitHub, we can produce more detailed experimental procedures in combination with the code and project repositories.
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
