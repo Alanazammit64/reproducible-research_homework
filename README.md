@@ -6,7 +6,7 @@ output: html_document
 ---
 
 # Question 1, 2, & 3
-Questions 1, 2 and 3 can be found in the README.Rmd file in the logistic_growth repository: [click here](https://github.com/Alanazammit64/logistic_growth)
+Questions 1, 2 and 3 can be found in the README.md file in the logistic_growth repository: [click here](https://github.com/Alanazammit64/logistic_growth)
 
 # Question 4 - Brownian Motion 
 
