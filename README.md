@@ -43,7 +43,7 @@ The edited script can be found in the 'question-4-code/random_walk.R file'
 
 4) **Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork)**
 
-! [Commited changes](Commit changes.png)
+![Commited changes](Commit changes.png)
 
 # Question 5
 
