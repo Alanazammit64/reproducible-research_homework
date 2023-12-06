@@ -91,6 +91,7 @@ summary(linear_model)
 In this formula, log(V)=β+α*log(L). β is the intercept, and α is the value provided for log_genome_length. Therefore, the value of the exponent (α) is 1.5152, and that of the scaling factor (β) is 7.0748. These values are highly significant in explaining the relationship between virion volume (V) and genome length (L), denoted by a three star significance code. 
 
 So, this linear model suggests a relationship between the log of virus length and the log of genome length: V = βL^α, where β ≈ 7.0748 and α ≈ 1.5152
+
 - V ≈ 7.0748L^1.5152
 
 From table 2 in the paper, the value of the exponent for dsDNA was recorded as 1.52, which is the same value to 2 significant figures as the value I found. The scaling factor in the paper was given as 1,182 for dsDNA, which, if we logarithmically backtransform our value of 7.0748 (e^7.0748) to give 1181.8071, is very similar to. 
