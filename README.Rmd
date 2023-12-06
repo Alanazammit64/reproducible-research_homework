@@ -1,5 +1,5 @@
 ---
-title: "Logistic Growth"
+title: "Reproducible Research Assignment"
 date: "2023-11-28"
 output: html_document
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Logistic Growth"
+title: "Reproducible Research Assignment"
 date: "2023-11-28"
 output: html_document
 ---
@@ -52,12 +52,11 @@ The table has 33 rows and 13 columns
 **Cleaning the data**
 
 The dataset has very user unfriendly names, including spaces and a mix of capital letters, so before working on it I will firstly clean it so that it can be manipulated with greater ease. 
+
 ```{r}
 cuietal_clean <- rename(Cui_etal2014, genome_length = "Genome length (kb)", virion_volume = "Virion volume (nm×nm×nm)")
 names(cuietal_clean)
 ```
-
-
 
 ```{r}
 # Saving the data in a 'data' folder 
@@ -68,6 +67,7 @@ write.csv(cuietal_clean, "data/cuietal_clean.csv")
 
 ### 2) What transformation can you use to fit a linear model to the data? Apply the transformation. 
 To fit a linear model to the data, I applied a log transformation to virion volume and genome length, as these two properties have such wide ranges (5.24 to 2473.87kb for genome length and 321392 to 75000000nm2 for virion volume)
+
 ```{r}
 cuietal_clean$log_virion_volume <- log(cuietal_clean$virion_volume)
 cuietal_clean$log_genome_length <- log(cuietal_clean$genome_length)
