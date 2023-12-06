@@ -428,11 +428,11 @@ so that it can be manipulated with greater ease.</p>
 names(cuietal_clean)</code></pre>
 <pre><code>##  [1] &quot;...1&quot;                  &quot;...2&quot;                  &quot;...3&quot;                 
 ##  [4] &quot;...4&quot;                  &quot;...5&quot;                  &quot;...6&quot;                 
-##  [7] &quot;Family&quot;                &quot;Genus&quot;                 &quot;Type species&quot;         
-## [10] &quot;GenBank accession no.&quot; &quot;Envelope&quot;              &quot;Virion type&quot;          
-## [13] &quot;T&quot;                     &quot;Virion diameter (nm)&quot;  &quot;Virion length (nm)&quot;   
-## [16] &quot;virion_volume&quot;         &quot;Molecule&quot;              &quot;genome_length&quot;        
-## [19] &quot;Protein no.&quot;</code></pre>
+##  [7] &quot;...7&quot;                  &quot;Family&quot;                &quot;Genus&quot;                
+## [10] &quot;Type species&quot;          &quot;GenBank accession no.&quot; &quot;Envelope&quot;             
+## [13] &quot;Virion type&quot;           &quot;T&quot;                     &quot;Virion diameter (nm)&quot; 
+## [16] &quot;Virion length (nm)&quot;    &quot;virion_volume&quot;         &quot;Molecule&quot;             
+## [19] &quot;genome_length&quot;         &quot;Protein no.&quot;</code></pre>
 </div>
 <div id="what-transformation-can-you-use-to-fit-a-linear-model-to-the-data-apply-the-transformation." class="section level3">
 <h3>2) What transformation can you use to fit a linear model to the
@@ -448,11 +448,12 @@ cuietal_clean$log_genome_length &lt;- log(cuietal_clean$genome_length)
 names(cuietal_clean)</code></pre>
 <pre><code>##  [1] &quot;...1&quot;                  &quot;...2&quot;                  &quot;...3&quot;                 
 ##  [4] &quot;...4&quot;                  &quot;...5&quot;                  &quot;...6&quot;                 
-##  [7] &quot;Family&quot;                &quot;Genus&quot;                 &quot;Type species&quot;         
-## [10] &quot;GenBank accession no.&quot; &quot;Envelope&quot;              &quot;Virion type&quot;          
-## [13] &quot;T&quot;                     &quot;Virion diameter (nm)&quot;  &quot;Virion length (nm)&quot;   
-## [16] &quot;virion_volume&quot;         &quot;Molecule&quot;              &quot;genome_length&quot;        
-## [19] &quot;Protein no.&quot;           &quot;log_virion_volume&quot;     &quot;log_genome_length&quot;</code></pre>
+##  [7] &quot;...7&quot;                  &quot;Family&quot;                &quot;Genus&quot;                
+## [10] &quot;Type species&quot;          &quot;GenBank accession no.&quot; &quot;Envelope&quot;             
+## [13] &quot;Virion type&quot;           &quot;T&quot;                     &quot;Virion diameter (nm)&quot; 
+## [16] &quot;Virion length (nm)&quot;    &quot;virion_volume&quot;         &quot;Molecule&quot;             
+## [19] &quot;genome_length&quot;         &quot;Protein no.&quot;           &quot;log_virion_volume&quot;    
+## [22] &quot;log_genome_length&quot;</code></pre>
 <pre class="r"><code># log_virion_volume and log_genome_length have been added </code></pre>
 <p><strong>Find the exponent (α) and scaling factor (β) of the
 allometric law for dsDNA viruses and write the p-values from the model
@@ -476,7 +477,8 @@ between virion volume (V) and genome length (L), denoted by a three star
 significance code.</p>
 <p>So, this linear model suggests a relationship between the log of
 virus length and the log of genome length: V = βL^α, where β ≈ 7.0748
-and α ≈ 1.5152 - V ≈ 7.0748L^1.5152</p>
+and α ≈ 1.5152</p>
+<p><span class="math display">\[V ≈ 7.0748L^{1.5152}\]</span></p>
 <p>From table 2 in the paper, the value of the exponent for dsDNA was
 recorded as 1.52, which is the same value to 2 significant figures as
 the value I found. The scaling factor in the paper was given as 1,182
