@@ -59,7 +59,7 @@ names(cuietal_clean)
 
 
 
-```{r, echo=FALSE, message=FALSE, results='hide', error=FALSE}
+```{r, echo=FALSE, message=FALSE, results='hide', error=FALSE, warning=FALSE}
 # Saving the data in a 'data' folder 
 dir.create("data")
 write.csv(Cui_etal2014, "data/Cui_etal2014.csv")
