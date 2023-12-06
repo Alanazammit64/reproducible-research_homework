@@ -9,7 +9,7 @@ Can be found in the README.Rmd file in the logistic_growth repository: [click he
 
 # Question 4 - Brownian Motion 
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE}
+```{r}
 # Installing the necessary packages
 library(ggplot2)
 library(gridExtra)
@@ -43,7 +43,7 @@ The edited script can be found in the 'question-4-code/random_walk.R file'
 
 ### 1) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud. How many rows and columns does the table have?
 
-```{r, warning=FALSE, message=FALSE}
+```{r}
 Cui_etal2014 <- read_csv("Cui_etal2014.csv")
 View(Cui_etal2014)
 ```
@@ -52,14 +52,14 @@ The table has 33 rows and 13 columns
 **Cleaning the data**
 
 The dataset has very user unfriendly names, including spaces and a mix of capital letters, so before working on it I will firstly clean it so that it can be manipulated with greater ease. 
-```{r, warning=FALSE}
+```{r}
 cuietal_clean <- rename(Cui_etal2014, genome_length = "Genome length (kb)", virion_volume = "Virion volume (nm×nm×nm)")
 names(cuietal_clean)
 ```
 
 
 
-```{r, echo=FALSE, message=FALSE, results='hide', error=FALSE}
+```{r}
 # Saving the data in a 'data' folder 
 dir.create("data")
 write.csv(Cui_etal2014, "data/Cui_etal2014.csv")
@@ -81,7 +81,7 @@ names(cuietal_clean)
 
 Viral particle volume can be predicted by their genome length using the allometric equation V = βL^α. Therefore to find the values of alpha (representing the exponent) and beta (the scaling factor), it was first necessary to apply a linear regression to the two variables, virion volume in nm3 and genome length in nucleotides. This was done using the code below. 
 
-```{r, results='hide'}
+```{r}
 linear_model <- lm(data = cuietal_clean, log_virion_volume~log_genome_length)
 summary(linear_model)
 ```
@@ -92,12 +92,12 @@ In this formula, log(V)=β+α*log(L). β is the intercept, and α is the value p
 
 So, this linear model suggests a relationship between the log of virus length and the log of genome length: V = βL^α, where β ≈ 7.0748 and α ≈ 1.5152
 
-- V ≈ 7.0748L^1.5152
+$$V ≈ 7.0748L^{1.5152}$$
 
 From table 2 in the paper, the value of the exponent for dsDNA was recorded as 1.52, which is the same value to 2 significant figures as the value I found. The scaling factor in the paper was given as 1,182 for dsDNA, which, if we logarithmically backtransform our value of 7.0748 (e^7.0748) to give 1181.8071, is very similar to. 
 
 ### 3) Write the code to reproduce the figure shown below
-```{r, results='hide', message=FALSE, warning=FALSE, fig.keep='none'}
+```{r}
 # Load necessary packages
 library(ggplot2)
 library(janitor)
