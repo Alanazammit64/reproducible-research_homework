@@ -1,0 +1,34 @@
+"Family","Genus","Type species","GenBank accession no.","Envelope","Virion type","T","Virion diameter (nm)","Virion length (nm)","Virion volume (nm×nm×nm)","Molecule","Genome length (kb)","Protein no.","log_virion_volume","log_genome_volume","log_genome_length"
+"Myoviridae","P1-like viruses","Enterobacteria phage P1","NC_005856","No","Icosahedral","13","85",NA,321392,"Linear",94.8,110,12.6804168408743,4.55176940926098,4.55176940926098
+NA,"P2-like viruses","Enterobacteria phage P2","NC_001895","No","Icosahedral","13","60",NA,113040,"Linear",33.59,43,11.6354970173584,3.5142284036242,3.5142284036242
+NA,"Mu-like viruses","Enterobacteria phage Mu","NC_000929","No","Icosahedral","13","60",NA,113040,"Linear",36.72,55,11.6354970173584,3.60332156575229,3.60332156575229
+NA,"SPO1-like viruses","Bacillus phage SPO1","NC_011421","No","Icosahedral","13","94",NA,434672,"Linear",132.56,204,12.982347002664,4.88703537311831,4.88703537311831
+"Siphoviridae","Lambda-like viruses","Enterobacteria phage lambda","NC_001416","No","Icosahedral","7","60",NA,113040,"Linear",48.5,73,11.6354970173584,3.88156379794344,3.88156379794344
+NA,"T1-like viruses","Enterobacteria phage T1","NC_005833","No","Icosahedral","7","60",NA,113040,"Linear",48.84,78,11.6354970173584,3.8885496492425,3.8885496492425
+NA,"T5-like viruses","Enterobacteria phage T5","NC_005859","No","Icosahedral","7","80",NA,267947,"Linear",121.75,162,12.4985444787416,4.8019697619627,4.8019697619627
+NA,"L5-like viruses","Mycobacterium phage L5","NC_001335","No","Icosahedral","7","60",NA,113040,"Linear",52.3,85,11.6354970173584,3.95699637107088,3.95699637107088
+NA,"Unassigned","Methanobacterium phage psiM2","NC_001902","No","Icosahedral","7","55",NA,87077,"Linear",26.11,32,11.3745480636756,3.26231838271104,3.26231838271104
+NA,"phiC31-like viruses","Streptomyces phage phiC31","NC_001978","No","Icosahedral","7","53",NA,77912,"Linear",41.49,53,11.263335263641,3.72545243434478,3.72545243434478
+NA,"N15-like viruses","Enterobacteria phage N15","NC_001901","No","Icosahedral","7","60",NA,113040,"Linear",46.38,60,11.6354970173584,3.83686833182739,3.83686833182739
+"Podoviridae","T7-like viruses","Enterobacteria phage T7","NC_001604","No","Icosahedral","7","60",NA,113040,"Linear",39.94,60,11.6354970173584,3.68737832798767,3.68737832798767
+NA,"P22-like viruses","Enterobacteria phage P22","NC_002371","No","Icosahedral","7","63",NA,130858,"Linear",41.72,72,11.7818680447978,3.73098063013257,3.73098063013257
+NA,"N4-like viruses","Escherichia phage N4","NC_008720","No","Icosahedral","7","70",NA,179503,"Linear",70.15,72,12.0979471998627,4.25063580654847,4.25063580654847
+"Corticoviridae","Corticovirus","Pseudoalteromonas phage PM2","NC_000867","Yes","Icosahedral","21","56",NA,91913,"Circular",10.08,22,11.4285977564462,2.31055326264322,2.31055326264322
+"Lipothrixviridae","Betalipothrixvirus","Sulfolobus islandicus filamentous virus","NC_003214","Yes","Filamentous",NA,"24",1950,881712,"Linear",40.9,73,13.689620751054,3.71113006304876,3.71113006304876
+NA,"Gammalipothrixvirus","Acidianus filamentous virus 1","NC_005830","Yes","Filamentous",NA,"24",900,406944,"Linear",20.87,40,12.9164308628205,3.03831272108911,3.03831272108911
+"Unassigned","Salterprovirus","His1 virus","NC_007914","Yes","Ovoid",NA,"44",74,87212,"Linear",14.46,35,11.3760972151079,2.67138621673062,2.67138621673062
+"Poxviridae","Orthopoxvirus","Vaccinia virus","NC_006998","Yes","Brick",NA,"200(x200)",250,1e+07,"Linear",194.71,223,16.1180956509583,5.27151127212753,5.27151127212753
+NA,"Avipoxvirus","Fowlpox virus","NC_002188","Yes","Brick",NA,"280(x200)",330,18480000,"Linear",288.54,261,16.7321996241778,5.66483372451763,5.66483372451763
+NA,"Capripoxvirus","Sheeppox virus","NC_004002","Yes","Brick",NA,"270(x200)",300,16200000,"Linear",149.96,148,16.6005218002026,5.01036859186771,5.01036859186771
+NA,"Leporipoxvirus","Myxoma virus","NC_001132","Yes","Brick",NA,"250(x200)",300,1.5e+07,"Linear",161.77,170,16.5235607590665,5.0861755733416,5.0861755733416
+NA,"Suipoxvirus","Swinepox virus","NC_003389","Yes","Brick",NA,"250(x200)",300,1.5e+07,"Linear",146.45,150,16.5235607590665,4.98668407327374,4.98668407327374
+NA,"Molluscipoxvirus","Molluscum contagiosum virus","NC_001731","Yes","Brick",NA,"250(x200)",320,1.6e+07,"Linear",190.29,163,16.5880992802041,5.24854922431392,5.24854922431392
+NA,"Yatapoxvirus","Yaba monkey tumor virus","NC_005179","Yes","Brick",NA,"250(x200)",300,1.5e+07,"Linear",134.72,140,16.5235607590665,4.90319855049402,4.90319855049402
+NA,"Betaentomopoxvirus","Amsacta moorei entomopoxvirus 'L'","NC_002520","Yes","Ovoid",NA,"250",350,11447917,"Linear",232.39,294,16.2533183500174,5.44841699479207,5.44841699479207
+"Iridoviridae","Chloriridovirus","Invertebrate iridescent virus 3","NC_008187","Yes","Icosahedral","189-217","180",NA,3052323,"Linear",191.1,126,14.9314134980278,5.25279685124623,5.25279685124623
+NA,"Ranavirus","Frog virus 3","NC_005946","Yes","Icosahedral","133 or 147","150",NA,1766391,"Linear",105.9,99,14.3844490399432,4.66249525260736,4.66249525260736
+"Adenoviridae","Mastadenovirus","Human adenovirus C","NC_001405","No","Icosahedral","25","90",NA,381540,"Linear",35.94,38,12.8519709734895,3.58185088135541,3.58185088135541
+"Polyomaviridae","Polyomavirus","Simian virus 40","NC_001669","No","Icosahedral","7","45",NA,47693,"Circular",5.24,8,10.7725399155834,1.65632149833295,1.65632149833295
+"Papillomaviridae","Alphapapillomavirus","Human papillomavirus 16","NC_001526","No","Icosahedral","7","55",NA,87077,"Circular",7.91,8,11.3745480636756,2.06812778177956,2.06812778177956
+"Mimiviridae","Mimivirus","Acanthamoeba polyphaga mimivirus","NC_014649","No","Icosahedral","972-1200","400",NA,33496000,"Linear",1181.55,979,17.3269365866811,7.07458241481744,7.07458241481744
+"Unassigned","Pandoravirus","Pandoravirus salinus","NC_022098","Yes","Ovoid",NA,NA,NA,7.5e+07,"Linear",2473.87,2541,18.1329986715006,7.81353900508839,7.81353900508839
