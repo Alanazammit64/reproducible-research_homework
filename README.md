@@ -141,18 +141,3 @@ Git is a widely used version control system, as it allows uses to track their ch
   GitHub is a key platform for hosting the git repositories, where it acts as a central hub for all work. This allows various project files, including code, datasets, and different documentation to be stored in one place. GitHub also allows research to be shared and collaborated on, as by hosting others on a project, they are able to not only view the work as it is being completed, but even contribute. 
   
   Whilst these platforms are very beneficial to improving the reproducability and replicabiltiy of code, they do have their limitations. For example, they have limitations on the accessibility of sensitive or proprietary information, meaning users may be required to purchase premium plans for increased privacy. They also have limitations in terms of storage capacities, and this could be restrictive when dealing with projects with particularly large files or datasets. Finally, the cloud-based interfaces, such as GitHub and Posit Cloud require internet access, and so are vulnerable to internet disruptions. Protocols.io is an online platform designed for documenting and sharing research protocols and experimental methodologies. It can be used in tandem with GitHub to improve the reproducibility of studies. For example, by integrating documented protocols from Protocols.io with GitHub repositories, so that the detailed experimental procedures can be found with the code and data, allowing others to replicate experiments more accurately. Furthermore, this will allow other collaborators to better understand the methodologies used in the project, thus increasing transparency. Therefore, by using Protocols.io in tandem with GitHub, we can produce more detailed experimental procedures in combination with the code and project repositories.
-  
- 
-
-```{r, echo=FALSE, message=FALSE, results='hide'}
-# Placing all images inside an 'image' folder
-dir.create("images")
-file.rename("commit_changes.png", "images/commit_changes.png")
-
-# Placing all figures inside a 'figure' folder
-dir.create("figures")
-file.rename("images/brownian_motion.png", "figures/brownian_motion.png")
-file.rename("images/reproducedfigure.png", "figures/reproducedfigure.png")
-file.rename("images/virionmodel.png", "figures/virionmodel.png")
-file.rename("images/Rplot.png", "figures/Rplot.png")
-```
