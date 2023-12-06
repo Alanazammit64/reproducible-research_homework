@@ -5,7 +5,7 @@ output: html_document
 ---
 
 # Question 1, 2, & 3
-Can be found in the README.Rmd file in the logistic_growth repository 
+Can be found in the README.Rmd file in the logistic_growth repository: [click here](https://github.com/mimzy64/logistic_growth.git)
 
 # Question 4 - Brownian Motion 
 
@@ -44,7 +44,7 @@ The edited script can be found in the 'question-4-code/random_walk.R file'
 ### 1) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud. How many rows and columns does the table have?
 
 ```{r, warning=FALSE, message=FALSE}
-Cui_etal2014 <- read_csv("Cui_etal2014.csv")
+Cui_etal2014 <- read_csv("data/Cui_etal2014.csv")
 View(Cui_etal2014)
 ```
 The table has 33 rows and 13 columns
@@ -144,7 +144,7 @@ Git is a widely used version control system, as it allows uses to track their ch
   
  
 
-```{r, echo=FALSE, message=FALSE, results='hide'}
+```{r, echo=FALSE, message=FALSE, results='hide', warning=FALSE}
 # Placing all images inside an 'image' folder
 dir.create("images")
 file.rename("commit_changes.png", "images/commit_changes.png")
